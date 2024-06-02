@@ -1,0 +1,90 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\oulay\\Desktop\\RentCar\\RentCar\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0FCD63DD-FC1F-42D4-9950-B39DFCD15CF6}|RentCar\\RentCar.vbproj|c:\\users\\oulay\\desktop\\rentcar\\rentcar\\rentcar\\fiche_employe.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{0FCD63DD-FC1F-42D4-9950-B39DFCD15CF6}|RentCar\\RentCar.vbproj|solutionrelative:rentcar\\fiche_employe.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FCD63DD-FC1F-42D4-9950-B39DFCD15CF6}|RentCar\\RentCar.vbproj|c:\\users\\oulay\\desktop\\rentcar\\rentcar\\rentcar\\fiche_employe.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{0FCD63DD-FC1F-42D4-9950-B39DFCD15CF6}|RentCar\\RentCar.vbproj|solutionrelative:rentcar\\fiche_employe.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FCD63DD-FC1F-42D4-9950-B39DFCD15CF6}|RentCar\\RentCar.vbproj|c:\\users\\oulay\\desktop\\rentcar\\rentcar\\rentcar\\splashscreen.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{0FCD63DD-FC1F-42D4-9950-B39DFCD15CF6}|RentCar\\RentCar.vbproj|solutionrelative:rentcar\\splashscreen.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FCD63DD-FC1F-42D4-9950-B39DFCD15CF6}|RentCar\\RentCar.vbproj|c:\\users\\oulay\\desktop\\rentcar\\rentcar\\rentcar\\splashscreen.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{0FCD63DD-FC1F-42D4-9950-B39DFCD15CF6}|RentCar\\RentCar.vbproj|solutionrelative:rentcar\\splashscreen.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SplashScreen.vb",
+              "DocumentMoniker": "C:\\Users\\oulay\\Desktop\\RentCar\\RentCar\\RentCar\\SplashScreen.vb",
+              "RelativeDocumentMoniker": "RentCar\\SplashScreen.vb",
+              "ToolTip": "C:\\Users\\oulay\\Desktop\\RentCar\\RentCar\\RentCar\\SplashScreen.vb",
+              "RelativeToolTip": "RentCar\\SplashScreen.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-15T23:16:24.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SplashScreen.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\oulay\\Desktop\\RentCar\\RentCar\\RentCar\\SplashScreen.vb",
+              "RelativeDocumentMoniker": "RentCar\\SplashScreen.vb",
+              "ToolTip": "C:\\Users\\oulay\\Desktop\\RentCar\\RentCar\\RentCar\\SplashScreen.vb [Design]",
+              "RelativeToolTip": "RentCar\\SplashScreen.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-15T23:16:20.572Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Fiche_Employe.vb",
+              "DocumentMoniker": "C:\\Users\\oulay\\Desktop\\RentCar\\RentCar\\RentCar\\Fiche_Employe.vb",
+              "RelativeDocumentMoniker": "RentCar\\Fiche_Employe.vb",
+              "ToolTip": "C:\\Users\\oulay\\Desktop\\RentCar\\RentCar\\RentCar\\Fiche_Employe.vb",
+              "RelativeToolTip": "RentCar\\Fiche_Employe.vb",
+              "ViewState": "AQIAALUAAAAAAAAAAAAcwMgAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-15T23:09:01.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Fiche_Employe.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\oulay\\Desktop\\RentCar\\RentCar\\RentCar\\Fiche_Employe.vb",
+              "RelativeDocumentMoniker": "RentCar\\Fiche_Employe.vb",
+              "ToolTip": "C:\\Users\\oulay\\Desktop\\RentCar\\RentCar\\RentCar\\Fiche_Employe.vb [Design]",
+              "RelativeToolTip": "RentCar\\Fiche_Employe.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-15T23:08:55.96Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
