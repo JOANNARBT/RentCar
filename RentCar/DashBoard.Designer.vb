@@ -34,28 +34,28 @@ Partial Class DashBoard
         Me.Label1 = New System.Windows.Forms.Label()
         Me.ImgHome = New System.Windows.Forms.PictureBox()
         Me.PanelTitleBar = New System.Windows.Forms.Panel()
+        Me.PicProfile = New System.Windows.Forms.PictureBox()
+        Me.BtnLogin = New System.Windows.Forms.Button()
         Me.BtnMaxi = New System.Windows.Forms.Button()
         Me.BtnExit = New System.Windows.Forms.Button()
         Me.BtnMini = New System.Windows.Forms.Button()
         Me.LblFormTitle = New System.Windows.Forms.Label()
         Me.IconCurrentForm = New FontAwesome.Sharp.IconPictureBox()
+        Me.BtnLogout = New System.Windows.Forms.Button()
         Me.PanelDesktop = New System.Windows.Forms.Panel()
         Me.LblDate = New System.Windows.Forms.Label()
         Me.LblTime = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Piccenter = New System.Windows.Forms.PictureBox()
         Me.Timer = New System.Windows.Forms.Timer(Me.components)
-        Me.BtnLogin = New System.Windows.Forms.Button()
-        Me.PicProfile = New System.Windows.Forms.PictureBox()
-        Me.BtnLogout = New System.Windows.Forms.Button()
         Me.PanelMenu.SuspendLayout()
         Me.PanelLogo.SuspendLayout()
         CType(Me.ImgHome, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.PanelTitleBar.SuspendLayout()
+        CType(Me.PicProfile, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.IconCurrentForm, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.PanelDesktop.SuspendLayout()
         CType(Me.Piccenter, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PicProfile, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'PanelMenu
@@ -247,6 +247,31 @@ Partial Class DashBoard
         Me.PanelTitleBar.Size = New System.Drawing.Size(1009, 98)
         Me.PanelTitleBar.TabIndex = 1
         '
+        'PicProfile
+        '
+        Me.PicProfile.BackgroundImage = CType(resources.GetObject("PicProfile.BackgroundImage"), System.Drawing.Image)
+        Me.PicProfile.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PicProfile.Location = New System.Drawing.Point(967, 58)
+        Me.PicProfile.Name = "PicProfile"
+        Me.PicProfile.Size = New System.Drawing.Size(36, 37)
+        Me.PicProfile.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PicProfile.TabIndex = 6
+        Me.PicProfile.TabStop = False
+        '
+        'BtnLogin
+        '
+        Me.BtnLogin.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BtnLogin.FlatAppearance.BorderSize = 0
+        Me.BtnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnLogin.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnLogin.ForeColor = System.Drawing.Color.Black
+        Me.BtnLogin.Location = New System.Drawing.Point(892, 60)
+        Me.BtnLogin.Name = "BtnLogin"
+        Me.BtnLogin.Size = New System.Drawing.Size(71, 31)
+        Me.BtnLogin.TabIndex = 5
+        Me.BtnLogin.Text = "Sign in"
+        Me.BtnLogin.UseVisualStyleBackColor = True
+        '
         'BtnMaxi
         '
         Me.BtnMaxi.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
@@ -314,6 +339,20 @@ Partial Class DashBoard
         Me.IconCurrentForm.TabIndex = 0
         Me.IconCurrentForm.TabStop = False
         '
+        'BtnLogout
+        '
+        Me.BtnLogout.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BtnLogout.FlatAppearance.BorderSize = 0
+        Me.BtnLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnLogout.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnLogout.ForeColor = System.Drawing.Color.Black
+        Me.BtnLogout.Location = New System.Drawing.Point(882, 60)
+        Me.BtnLogout.Name = "BtnLogout"
+        Me.BtnLogout.Size = New System.Drawing.Size(87, 31)
+        Me.BtnLogout.TabIndex = 7
+        Me.BtnLogout.Text = "Log out"
+        Me.BtnLogout.UseVisualStyleBackColor = True
+        '
         'PanelDesktop
         '
         Me.PanelDesktop.BackColor = System.Drawing.Color.FromArgb(CType(CType(186, Byte), Integer), CType(CType(2, Byte), Integer), CType(CType(3, Byte), Integer))
@@ -380,45 +419,6 @@ Partial Class DashBoard
         'Timer
         '
         '
-        'BtnLogin
-        '
-        Me.BtnLogin.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BtnLogin.FlatAppearance.BorderSize = 0
-        Me.BtnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnLogin.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnLogin.ForeColor = System.Drawing.Color.Black
-        Me.BtnLogin.Location = New System.Drawing.Point(892, 60)
-        Me.BtnLogin.Name = "BtnLogin"
-        Me.BtnLogin.Size = New System.Drawing.Size(71, 31)
-        Me.BtnLogin.TabIndex = 5
-        Me.BtnLogin.Text = "Sign in"
-        Me.BtnLogin.UseVisualStyleBackColor = True
-        '
-        'PicProfile
-        '
-        Me.PicProfile.BackgroundImage = CType(resources.GetObject("PicProfile.BackgroundImage"), System.Drawing.Image)
-        Me.PicProfile.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PicProfile.Location = New System.Drawing.Point(967, 58)
-        Me.PicProfile.Name = "PicProfile"
-        Me.PicProfile.Size = New System.Drawing.Size(36, 37)
-        Me.PicProfile.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PicProfile.TabIndex = 6
-        Me.PicProfile.TabStop = False
-        '
-        'BtnLogout
-        '
-        Me.BtnLogout.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BtnLogout.FlatAppearance.BorderSize = 0
-        Me.BtnLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnLogout.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnLogout.ForeColor = System.Drawing.Color.Black
-        Me.BtnLogout.Location = New System.Drawing.Point(882, 60)
-        Me.BtnLogout.Name = "BtnLogout"
-        Me.BtnLogout.Size = New System.Drawing.Size(87, 31)
-        Me.BtnLogout.TabIndex = 7
-        Me.BtnLogout.Text = "Log out"
-        Me.BtnLogout.UseVisualStyleBackColor = True
-        '
         'DashBoard
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 17.0!)
@@ -441,11 +441,11 @@ Partial Class DashBoard
         CType(Me.ImgHome, System.ComponentModel.ISupportInitialize).EndInit()
         Me.PanelTitleBar.ResumeLayout(False)
         Me.PanelTitleBar.PerformLayout()
+        CType(Me.PicProfile, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.IconCurrentForm, System.ComponentModel.ISupportInitialize).EndInit()
         Me.PanelDesktop.ResumeLayout(False)
         Me.PanelDesktop.PerformLayout()
         CType(Me.Piccenter, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PicProfile, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
